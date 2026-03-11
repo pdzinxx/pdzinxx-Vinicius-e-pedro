@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cabecalho{
+    background-image: linear-gradient(to bottom, #fffacc, #cabc92);
+    padding: 20px;
+    text-align: center;
+}
+.menu{
+    background-color: #cabc92;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left:  20px;
+
+   
+}
+#nav{
+    background-image: linear-gradient(to top, #5a464c, #cabc92);
+    text-decoration: none;
+    margin: 0 ;
+    font-weight: bold;
+    color: #fffacc;
+    text-align: center;
+    font-family: "Cherry Cream Soda", system-ui;
+}
+.a{
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    color: #3b2e32;
+    
+}
+.a:hover{
+    color: #5a464c;
+    transition: 1s;
+}
+body {
+     background-image: linear-gradient(to bottom ,#5a464c, #3c3134, #2c2326);
+}
+.container{
+    width: 400px;
+    margin: 0 auto;
+    background-image: linear-gradient(to left, #cabc92, #bead78,#9b8d66);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 298.2px auto;
+    justify-content: center;
+    height: auto;
+   
+}
+.div{
+    display: block;
+    background-color: #ffffff;
+    color: #3b2e32;
+    text-align: center;
+    border-radius: 5px;
+    border: 3px solid #3b2e32;
+}
+.text{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #3b2e32;
+}
+.inp{
+    color: #ffffff;
+    background-color: #ffffff;
+    border: 1px solid #3b2e32;
+    padding: 5px;
+    border-radius: 5px;
+}
+.inp:hover{
+    background-color: #cabc92;
+    color: #3b2e32;
+    transition: 1s;
+}
+.btn{
+    background-color: #cabc92;
+    color: #3b2e32;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 150px;
+}
+.btn:hover{
+        background-color: #f3e8c8;
+        color: #805d67;
+        transition: 1s;
+}

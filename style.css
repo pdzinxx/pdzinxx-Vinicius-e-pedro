@@ -1,0 +1,154 @@
+/*seletor universal*/
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*seletor de tag*/
+body{
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #7d774c;
+    background-color: #3b2e32;
+    height: 100vh;
+    margin: 0;
+}
+#cabecalho{
+    background-image: linear-gradient(to bottom, #fffacc, #cabc92);
+    padding: 20px;
+    text-align: center;
+}
+.menu{
+    background-color: #cabc92;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left:  20px;
+
+   
+}
+#nav{
+    background-color: #cabc92;
+    text-decoration: none;
+    margin: 0 ;
+    font-weight: bold;
+    color: #fffacc;
+    text-align: center;
+    font-family: "Cherry Cream Soda", system-ui;
+}
+.a{
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    color: #3b2e32;
+    
+}
+.a:hover{
+    color: #5a464c;
+    transition: 1s;
+}
+ #destaque{
+    margin-top: 50px;
+  text-align: center;
+ }
+ .btn{
+    background-color: #cabc92;
+    color: #3b2e32;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+ }
+.btn:hover{
+        background-color: #f3e8c8;
+        color: #805d67;
+        transition: 1s;
+}
+.titulo_2,.titulo_3{
+    text-align: center;
+    font-size: 2em;
+    color: #cabc92;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.promocao{
+    height: auto;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center; 
+    margin: 0;
+    flex-direction: row;
+ 
+    
+}
+.produto{
+ background-color: #fffacc;
+    border-radius: 40px 0 40px 0;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    border: 5px inset #cabc92;
+}
+.nome{
+   text-align: center;
+   font-size: 1.5em;
+   font-weight: bold;
+   color: #805d67;
+   margin-top: 5px;
+}
+.acai{
+    width: 200px;
+    border-radius: 40px 0 40px 0;
+    background-image: linear-gradient(to bottom, #fffacc, #cabc92);
+    border-style: solid;
+    border-width: 2px;
+}
+.acai:hover{
+    box-shadow: 0 0 10px #f3e8c8;
+    transition: 0.5s;
+    width: 220px;
+    transition: 1s;
+}
+
+.preco{
+    text-align: center;
+    font-size: 1.2em;
+    color: #805d67;
+    margin-bottom: 10px;
+    
+}
+.car{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+    
+.car img{
+    height: 80px;
+    width: 80px;
+
+}
+.banner{
+    margin: 0;
+
+}
+.banner-text{
+    font-family: "Cherry Cream Soda", system-ui;
+    font-weight: 400;
+    font-size: 26px;
+    font-style: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(35%, -90%);
+    color: #fffacc;
+    text-align: center;
+    
+}
+#titulo-p2{
+    color: #ff4949;}
